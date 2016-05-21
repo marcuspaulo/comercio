@@ -1,0 +1,15 @@
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/categoria/repository/CategoriaRepository.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/conf/SpringSecurityFilterConfiguration.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/conf/SecurityConfiguration.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/produto/entidade/Produto.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/util/exception/ProdutoNaoEncontradoException.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/resource/ProdutoResource.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/util/PaginatedList.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/produto/repository/ProdutoRepository.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/produto/service/ProdutoService.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/categoria/service/CategoriaService.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/conf/JPAConfiguration.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/conf/AppWebConfiguration.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/categoria/entidade/Categoria.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/conf/SpringMVCServlet.java
+/Users/marcus/Documents/DESENVOLVIMENTO/Java/workspace/comercio/src/main/java/br/com/comercio/util/exception/ProdutoExistenteException.java

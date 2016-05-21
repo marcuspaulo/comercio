@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Produtos</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./recursos/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./recursos/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<ul class="nav nav-pills">
+	  <li role="presentation" class="active" href="#/produto"><a href="#">Home</a></li>
+	  <li role="presentation"><a href="#/administrativo/cadastroProduto">Cadastro</a></li>
+	</ul>
+
+	<div ng-view></div>
+
+	<script src="./recursos/angular/angular.min.js"></script>
+	<script src="./recursos/angular/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="./administrativo/produtos/produto.js"></script>
+	<script src="./recursos/angular/i18n/angular-locale_pt-br.js"></script>
+</body>
+</html>

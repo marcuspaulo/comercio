@@ -1,0 +1,15 @@
+br/com/comercio/conf/JPAConfiguration.class
+br/com/comercio/resource/ProdutoResource.class
+br/com/comercio/categoria/entidade/Categoria.class
+br/com/comercio/util/exception/ProdutoNaoEncontradoException.class
+br/com/comercio/util/PaginatedList.class
+br/com/comercio/conf/SecurityConfiguration.class
+br/com/comercio/conf/SpringMVCServlet.class
+br/com/comercio/conf/AppWebConfiguration.class
+br/com/comercio/produto/repository/ProdutoRepository.class
+br/com/comercio/util/exception/ProdutoExistenteException.class
+br/com/comercio/categoria/repository/CategoriaRepository.class
+br/com/comercio/categoria/service/CategoriaService.class
+br/com/comercio/produto/service/ProdutoService.class
+br/com/comercio/produto/entidade/Produto.class
+br/com/comercio/conf/SpringSecurityFilterConfiguration.class

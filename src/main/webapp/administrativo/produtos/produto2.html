@@ -1,0 +1,18 @@
+<br />
+<div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">Pesquisar: </span>
+  <input type="text" class="form-control" style="width: 30%;" ng-model="filtro" placeholder="Nome do Produto" aria-describedby="sizing-addon1">
+</div>
+<div class="panel panel-primary" style="width: 70%;">
+	  <div class="panel-heading">Lista de Produtos</div>
+	  <div class="panel-body">
+		  <table class="table table-striped" ng-controller="ProdutoCtrl">
+			<tbody ng-repeat="produto in produtos | filter:filtro">
+				<td>{{produto.nome}}</td>
+			</tbody>
+		</table>
+	  </div>
+</div>
+
+	
+

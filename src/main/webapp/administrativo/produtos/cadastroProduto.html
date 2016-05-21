@@ -1,0 +1,29 @@
+<form ng-controller="ProdutoCtrl" ng-submit="cadastrarProduto(produto);" >
+
+  <br/>
+  <div class="alert alert-success" ng-if="mensagem" role="alert">{{mensagem}}</div>
+  
+  <div class="panel panel-primary" style="width: 70%;">
+	  <div class="panel-heading">Cadastro de Produtos</div>
+	  <div class="panel-body">
+		  <div class="input-group input-group-lg">
+			  <span class="input-group-addon" id="sizing-addon1">Nome: </span>
+			  <input type="text" class="form-control" ng-model="produto.nome" style="width: 30%;" placeholder="Nome do Produto" aria-describedby="sizing-addon1">
+		  </div>
+			  
+	  </div>
+	  <div class="panel-footer">
+	  	<button type="submit" class="btn btn-primary">Cadastrar Produto</button>
+	  </div>
+  </div>
+  <br/><br/>
+  
+  <div class="row">
+	  <div class="col-xs-6 col-md-4"></div>
+	  <div class="col-xs-6 col-md-4">
+	  	
+	  </div>
+	  <div class="col-xs-6 col-md-4"></div>
+  </div>
+	
+</form>
